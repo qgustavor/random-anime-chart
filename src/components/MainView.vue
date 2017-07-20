@@ -62,13 +62,12 @@ h1, h2 {
 }
 
 .chart-area {
-  -js-display: flex;
 	display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -137,24 +136,4 @@ footer {
 footer a { color: white; }
 footer a:hover,
 footer a:focus { text-decoration: none; }
-
-@media screen and (min-width: 500px)  {
-  .box {
-    width: 50%;
-    width: calc(50% - 10px);
-  }
-  header h1 {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (min-width: 700px)  {
-  .box {
-    width: 33.3%;
-    width: calc(33.3% - 15px);
-  }
-  header h1 {
-    font-size: 1.75em;
-  }
-}
 </style>

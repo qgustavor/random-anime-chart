@@ -6,7 +6,8 @@ import createTitle from './createTitle'
 
 export default function generateChart (random) {
   const chart = {
-    id: random.hash({length: 15})
+    id: random.hash({length: 15}),
+    random
   }
   const state = {
     structureTaken: 'x',
@@ -26,7 +27,9 @@ export default function generateChart (random) {
   createMeta(state)
   createTitle(state)
 
-  chart.title = state.title.primary
+  chart.title = state.title.full
+  chart.titleBasic = state.title.primary
+  chart.subtitle = state.title.subtitle
   chart.studio = state.meta.studio
   chart.genre = state.meta.genre
 
@@ -39,12 +42,14 @@ export default function generateChart (random) {
   description += ' ' + createSentence(state, 'last')
 
   chart.description = description
-  chart.malScore = state.meta.malScore
-  chart.backgroundColor = 'hsl(' + [
-    random.integer({min: 0, max: 360}),        // hue
-    random.integer({min: 50, max: 100}) + '%', // saturation
-    random.integer({min: 80, max: 90}) + '%'   // luminosity
-  ].join(',') + ')'
+  chart.episodes = random.integer(random.weighted([
+    {min: 1, max: 5},
+    {min: 10, max: 14},
+    {min: 22, max: 26},
+    {min: 50, max: 60},
+    {min: 100, max: 200}
+  ], [10, 30, 20, 5, 1]))
+  chart.score = state.meta.malScore
 
   return chart
 }

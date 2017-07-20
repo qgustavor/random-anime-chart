@@ -5,7 +5,7 @@
       <router-link to="./" class="btn">Reroll</router-link>
     </header>
     
-    <div class="floating-header-padding"></div>
+    <div class="floating-header-padding" />
 
     <router-view></router-view>
     
@@ -55,7 +55,8 @@ header {
   position: fixed;
   box-shadow: 0 0 5px black;
   display: flex;
-  align-items: center
+  align-items: center;
+  z-index: 1;
 }
 
 header h1 {
@@ -111,10 +112,11 @@ footer a:hover,
 footer a:focus { text-decoration: none; }
 
 .lang-select a {
-  margin: 0 0.5em;
+  margin: 0 0.5em 0.5em;
   padding: 0.2em 0.6em;
   border: 1px solid white;
   text-decoration: none;
+  display: inline-block;
 }
 
 .lang-select .router-link-exact-active {

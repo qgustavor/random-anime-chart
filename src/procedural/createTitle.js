@@ -101,6 +101,9 @@ module.exports = function createTitle (state) {
   }
 
   if (random.bool({likelihood: 85})) {
-    title.primary = title.primary + ': ' + title.subtitle
+    title.full = title.primary + ': ' + title.subtitle
+  } else {
+    title.full = title.primary
+    title.subtitle = null
   }
 }
