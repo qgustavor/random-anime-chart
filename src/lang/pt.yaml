@@ -1,0 +1,1693 @@
+---
+gender:
+- homem
+- mulher
+
+# NOTE: gender names in keys need to be EXACTLY the same as the ones in the array above
+firstNames:
+  homem:
+  - Aki
+  - Kenji
+  - Taro
+  - Arata
+  - Daichi
+  - Hideo
+  - Akihiko
+  - Akimasa
+  - Akito
+  - Akio
+  - Akitoshi
+  - Arihiro
+  - Ariaga
+  - Arihiro
+  - Arinaga
+  - Asao
+  - Atsuo
+  - Atsushi
+  - Azuma
+  - Banri
+  - Bunji
+  - Bunta
+  - Choki
+  - Chuuchi
+  - Dai
+  - Daigo
+  - Daizou
+  - Eichi
+  - Eiji
+  - Eisuke
+  - Eizou
+  - Fumio
+  - Fumito
+  - Futoshi
+  - Fuyuki
+  - Gen'ichi
+  - Genta
+  - Gin
+  - Goro
+  - Hakaru
+  - Haruaki
+  - Haruo
+  - Hideaki
+  - Hayata
+  - Hideoyo
+  - Hideyuki
+  - Hiroji
+  - Hiroki
+  - Hiroshi
+  - Hiroya
+  - Hirotoki
+  - Hisao
+  - Hisashi
+  - Ikki
+  - Ippei
+  - Iwao
+  - Isao
+  - Jin
+  - Jiro
+  - Juubei
+  - Junzou
+  - Kagemori
+  - Kaichi
+  - Kaiji
+  - Kaku
+  - Katsuji
+  - Katsuya
+  - Ken
+  - Keiji
+  - Kenki
+  - Kenta
+  - Kihachi
+  - Kinji
+  - Kousuke
+  - Koya
+  - Kyouji
+  - Mahiro
+  - Manabu
+  - Masahide
+  - Masao
+  - Morio
+  - Naoki
+  - Naoto
+  - Nobuo
+  - Noriaki
+  - Norio
+  - Okimoto
+  - Osamu
+  - Otohiko
+  - Raizo
+  - Reiichi
+  - Ryouhei
+  - Ryu
+  - Ryuuta
+  - Saburou
+  - Saiichi
+  - Seigo
+  - Seiji
+  - Shigeki
+  - Shinta
+  - Shouta
+  - Shinji
+  - Shuuhei
+  - Tadafumi
+  - Tadami
+  - Tadao
+  - Taizou
+  - Takamori
+  - Takaki
+  - Takaya
+  - Takehiro
+  - Tetsuo
+  - Tomohide
+  - Tomino
+  - Umanosuke
+  - Umeji
+  - Wataru
+  - Yahiko
+  - Yashiro
+
+  mulher:
+  - Nana
+  - Ai
+  - Aika
+  - Aiko
+  - Aimi
+  - Aina
+  - Airi
+  - Akane
+  - Akari
+  - Akemi
+  - Aki
+  - Akie
+  - Akiko
+  - Amane
+  - Ami
+  - Anzu
+  - Aoi
+  - Asako
+  - Asami
+  - Asuka
+  - Asumi
+  - Asuna
+  - Atsuko
+  - Atsumi
+  - Aya
+  - Ayaka
+  - Ayako
+  - Ayame
+  - Ayami
+  - Ayana
+  - Chie
+  - Chieko
+  - Chiemo
+  - Chiharu
+  - Chiho
+  - Chika
+  - Chinami
+  - Chitose
+  - Chiyo
+  - Chiyako
+  - Chizuru
+  - Eiko
+  - Eimi
+  - Emi
+  - Emiko
+  - Eri
+  - Erika
+  - Etsuko
+  - Fujiko
+  - Fukumi
+  - Fumi
+  - Fumie
+  - Fumika
+  - Fumiko
+  - Fusako
+  - Fuyuko
+  - Fuyumi
+  - Hana
+  - Hanae
+  - Hanko
+  - Harue
+  - Haruna
+  - Haruko
+  - Hideko
+  - Hidemi
+  - Hiroe
+  - Hisae
+  - Hisayo
+  - Hitomi
+  - Ichiko
+  - Ikue
+  - Ikumi
+  - Itsumi
+  - Jitsuko
+  - Junko
+  - Kaguya
+  - Kana
+  - Kanako
+  - Kazue
+  - Kikue
+  - Koharu
+  - Kotomi
+  - Kotori
+  - Kumiko
+  - Kurenai
+  - Kyoko
+  - Maaya
+  - Maaya
+  - Machi
+  - Machiko
+  - Madoka
+  - Maho
+  - Maiko
+  - Mami
+  - Mana
+  - Manaka
+  - Mao
+  - Manami
+  - Mari
+  - Masae
+  - Masako
+  - Mayu
+  - Mayumi
+  - Mei
+  - Michiko
+  - Mie
+  - Miki
+  - Miku
+  - Mikuru
+  - Minako
+  - Minami
+  - Miu
+  - Miyabi
+  - Momo
+  - Momoe
+  - Nagako
+  - Nami
+  - Nanase
+  - Nao
+  - Narumi
+  - Natsume
+  - Nozomi
+  - Otoha
+  - Otome
+  - Ran
+  - Reika
+  - Rie
+  - Riho
+  - Rika
+  - Rumiko
+  - Ruri
+  - Ruriko
+  - Sachika
+  - Saeko
+  - Sakura
+  - Sanae
+  - Saori
+  - Satoko
+  - Saya
+  - Sayako
+  - Sayuri
+  - Seiko
+  - Shinako
+  - Shino
+  - Shizue
+  - Shizuko
+  - Suzuka
+  - Taeko
+  - Tamao
+  - Teiko
+  - Terumi
+  - Tomiko
+  - Toshiko
+  - Tsukiko
+  - Tsuru
+  - Umeko
+  - Wakako
+  - Yaeko
+  - You
+  - Yukari
+  - Yui
+  - Yumeko
+  - Yuri
+  - Yurie
+  - Yurina
+
+lastName:
+- Yamada
+- Daiki
+- Hanamaru
+- Abe
+- Adachi
+- Akagi
+- Akamine
+- Aki
+- Akiyama
+- Amano
+- Amaya
+- Ando
+- Anno
+- Anzai
+- Aoki
+- Aoyama
+- Arai
+- Araki
+- Arakawa
+- Arata
+- Araya
+- Arima
+- Arita
+- Asa
+- Asai
+- Asano
+- Asato
+- Ashikaga
+- Azuma
+
+occupation:
+- um estudante
+- um soldado
+- um feiticeiro
+- uma bruxa
+- um caçador
+- um mangaká
+- um NEET
+- um capitão
+- uma empregada
+- um mordomo
+- um samurai
+- um guerreiro
+- um professor
+- um ateu
+- um professor
+- um presidente de classe
+- um político
+- um assalariado
+- um jogador
+- um yakuza
+- um servo
+- um estudioso
+- uma realeza
+- um piloto
+- um super-herói
+- um herói
+- um general
+- uma donzela do santuário
+- uma garota mágica
+- um alquimista
+- um ferreiro
+- um escritor
+- um editor
+- um cantor
+- um ídolo
+- um incursor
+- um médico
+- um cirurgião
+- um mercenário
+- um advogado
+- um comerciante
+- um traidor
+- um padre
+- um monge
+- um açougueiro
+- uma princesa
+- um atirador
+- um técnico
+- um engenheiro
+- um dançarino
+- um corredor
+- uma enfermeira
+- um caixa
+- um funcionário
+- um garçom
+- um assistente
+- um gerente
+- um contador
+- um auditor
+- um segurança
+- um recepcionista
+- um pedreiro
+- um carpinteiro
+- um policial
+- uma modelo
+- um caixa
+- um cozinheiro
+- um eletricista
+- um barman
+- um motorista de ônibus
+- um carcereiro
+- um desenvolvedor
+- um maquinista
+- um estilista
+- um bombeiro
+
+occupationPlural:
+- estudantes
+- soldados
+- feiticeiros
+- bruxas
+- caçadores
+- mangakás
+- NEETs
+- capitões
+- empregadas
+- mordomos
+- samurais
+- guerreiros
+- professores
+- ateus
+- professores
+- presidentes de classe
+- políticos
+- assalariados
+- jogadores
+- yakuzas
+- servos
+- estudiosos
+- realezas
+- pilotos
+- super-heróis
+- heróis
+- generais
+- donzelas do santuário
+- garotas mágicas
+- alquimistas
+- ferreiros
+- escritores
+- editores
+- cantores
+- ídolos
+- incursores
+- médicos
+- cirurgiões
+- mercenários
+- advogados
+- comerciantes
+- traidores
+- padres
+- monges
+- açougueiros
+- princesas
+- atiradores
+- técnicos
+- engenheiros
+- dançarinos
+- corredores
+- enfermeiras
+- caixas
+- funcionários
+- garçons
+- assistentes
+- gerentes
+- contadores
+- auditores
+- seguranças
+- recepcionistas
+- pedreiros
+- carpinteiros
+- policiais
+- modelos
+- caixas
+- cozinheiros
+- eletricistas
+- barmen
+- motoristas de ônibus
+- carcereiros
+- desenvolvedores
+- maquinistas
+- estilistas
+- bombeiros
+
+race:
+- um humano
+- um elfo
+- um orco
+- um centauro
+- uma cobra
+- um caranguejo
+- um deus
+- um anjo
+- um diabo
+- um demônio
+- um goblin
+- um espírito
+- um morcego
+- um vampiro
+- um robô
+- um sátiro
+- um homúnculo
+- um ciborgue
+- um clone
+- um gato
+- um macaco
+- uma arma viva
+- um coelho
+- um cachorro
+- uma raposa
+- um lobo
+- um pássaro
+- uma águia
+- uma fênix
+- um zumbi
+- um unicórnio
+- um cavalo
+- um pônei
+- uma aranha
+- uma sereia
+- um youkai
+- um espírito
+- um fantasma
+- um mecha
+- um monstro
+- um ghoul
+
+racePlural:
+- humanos
+- elfos
+- orcos
+- centauros
+- cobra
+- caranguejos
+- deuses
+- anjos
+- diabos
+- demônios
+- goblins
+- espíritos
+- morcegos
+- vampiros
+- robôs
+- sátiros
+- homúnculos
+- ciborgues
+- clones
+- gatos
+- macacos
+- armas vivas
+- coelhos
+- cachorros
+- raposas
+- lobos
+- pássaros
+- águias
+- fênix
+- zumbis
+- unicórnios
+- cavalos
+- pôneis
+- aranhas
+- sereias
+- youkais
+- espíritos
+- fantasmas
+- mechas
+- monstros
+- ghouls
+
+relation:
+- um rival
+- um amigo de infância
+- um irmão
+- uma mãe
+- um pai
+- um irmão
+- um pai
+- um chefe
+- um professor
+- um mestre
+- um primo
+- um servo
+- um escravo
+- um mordomo
+- uma irmã
+- uma tia
+- um tio
+- um grande pai
+- um colega de classe
+- um colega
+- um fã
+
+objectivePronoun:
+- dele
+- dela
+
+object:
+- uma equipe
+- uma espada
+- um livro
+- uma parede
+- uma mansão
+- uma casa
+- um pingente
+- uma coroa
+- um chapéu
+- uma lança
+- um pau
+- uma mão
+- uma garrafa
+- uma mesa
+- uma caneta
+- um fone de ouvido
+- um celular
+- um laser
+- um carro
+- uma bicicleta
+- uma fumaça
+- uma sombra
+- uma tatuagem
+- um arco
+- um véu
+- uma camisa
+- um microfone
+- uma bíblia
+- uma televisão
+- um quimono
+- uma lâmpada
+- um relógio
+- uma engrenagem
+- uma máquina
+- um machado
+- uma mochila
+- um bife
+- uma carne
+- um dado
+- uma adaga
+- uma arma
+- um rifle
+- um canhão
+- um barco
+- um sangue
+- uma sombra
+- um cordão
+- uma corda
+- uma caneta
+- uma espingarda
+- um cavalo
+- uma carta
+- um papel
+- um lenço
+- uma folha
+- um escudo
+- um violão
+- um baixo
+- um clube
+- uma pele
+- uma agulha
+- um óculos
+- um fogo
+- um copo
+- uma permissão
+- um sonho
+- um ar
+- uma planta
+- uma rosa
+- uma gema
+- uma magia
+- uma katana
+- uma besta
+- uma cruz
+- um forno
+- um martelo
+- uma borracha
+- uma pedra
+- um monolito
+- um feixe
+- uma torre
+- uma colina
+- um ferro
+- uma tesoura
+- uma lágrima
+- uma porta
+- uma bomba
+
+verbToInfinitive:
+- encontrar
+- destruir
+- derrotar
+- salvar
+- cozinhar
+- matar
+- confessar
+- casar
+- duelar
+- bater
+- estocar
+- bater
+- lutar
+- aprender
+- ensinar
+- plantar
+- patinar
+- correr
+- orar
+- caçar
+- pintar
+- caçar
+- vestir
+- abençoar
+- dançar
+- arrebanhar
+- governar
+- queimar
+- pedalar
+- salvar
+- treinar
+- dormir junto
+- tomar banho
+- calcular
+- amar
+
+verbPresentParticiple:
+- encontrando
+- destruindo
+- derrotando
+- salvando
+- cozinhando
+- matando
+- confessando
+- casando
+- duelando
+- batendo
+- estocando
+- batendo
+- lutando
+- aprendendo
+- ensinando
+- plantando
+- patinando
+- correndo
+- orando
+- caçando
+- pintando
+- caçando
+- vestindo
+- abençoando
+- dançando
+- arrebanhando
+- governando
+- queimando
+- pedalando
+- salvando
+- treinando
+- dormindo junto
+- tomando banho
+- calculando
+- amando
+
+verbPastParticiple:
+- encontrado
+- destruído
+- derrotado
+- salvo
+- ido até
+- cozinhado
+- morto
+- confessado para
+
+adjective:
+- um santo
+- um entediado
+- uma queimado
+- um melhor
+- um indestrutível
+- um patético
+- um ordinário
+- um perdido
+- um profano
+- um perigoso
+- um infinito
+- um agudo
+- um incrível
+- um triste
+- um histórico
+- um humanoide
+- um quebrado
+- um selvagem
+- um vicioso
+- um forte
+- um estável
+- um fraco
+- um bamboleante
+- um inteligente
+- um amigável
+- um agressivo
+- um meio
+- um impressionante
+- um bem
+- um precioso
+- uma raiva
+- um feliz
+- um alegre
+- um salgado
+- um incomodado
+- um experiente
+- um desconhecido
+- um estrito
+- um ignorante
+- um degradante
+- um passivo
+- um inacreditável
+- um incrível
+- um zeloso
+- um insensível
+- um desconcertado
+- um perverso
+- um rico
+- um excelente
+- um velho
+- um jovem
+- um misterioso
+- um desconcertado
+- um ativo
+- um absoluto
+- um normal
+- um adorável
+- um fofo
+- um aclamado
+- uma acrobático
+- um adepto
+- um admirável
+- um admirado
+- um adolescente
+- um medroso
+- um idoso
+- um ambicioso
+- um duro
+- um ansioso
+- um angélico
+- um apreensivo
+- um atencioso
+- uma vergonha
+- um assombroso
+- um horrível
+- um estranho
+- uma má
+- um bonito
+- um voraz
+- um infectado
+- um amado
+- um amargo
+- um calmo
+- um sombrio
+- um ousado
+- um chato
+- um bravo
+- um empolgado
+- um calmo
+- um cálculo
+- um cuidado
+- um encantador
+- um alegre
+- um desajeitado
+- uma despistada
+- um competente
+- um composto
+- um bom
+- um corrupto
+- um astuto
+- um criativo
+- um assustador
+- um criminoso
+- um cultivado
+- um perigoso
+- um deslumbrante
+- um escuro
+- um mortal
+- um denso
+- um devoto
+- um maldito
+- um distante
+- um triste
+- um sujo
+- uma tortuosa
+- um pontuante
+- uma seca
+- um distante
+- uma ansiosa
+- uma fácil
+- um eufórico
+- um embaraçado
+- um excelente
+- um excitado
+- uma virgem
+- um fabuloso
+- um fiel
+- um falso
+- uma fantasia
+- um familiar
+- um enérgico
+- um chamativo
+- um foco
+- um tolo
+- um frágil
+- uma enjoada
+- um mal
+- um bem
+- um compulsivo
+
+adjectiveComparative:
+- mais sagrado
+- mais chato
+- mais queimado
+- mais definitivo
+- mais indestrutível
+- mais patético
+- mais comum
+- mais perdido
+- mais insípido
+- mais perigoso
+- mais infinito
+- mais nítida
+- mais incrível
+- mais triste
+- mais histórico
+- mais humano
+- mais quebrado
+- mais selvagem
+- mais vicioso
+- mais forte
+- mais estável
+- mais fraco
+- menos estável
+- mais inteligente
+- mais amigável
+- mais agressivo
+- mais malvado
+- mais impressionante
+- melhor
+- mais precioso
+- mais irritado
+- mais feliz
+- mais alegre
+- mais salgado
+- mais incomodado
+- mais experiente
+- mais desconhecido
+- mais rigoroso
+- mais ignorante
+- mais humilhante
+- mais passivo
+- mais incrível
+- mais surpreendente
+- mais zeloso
+- mais enervante
+- mais desconcertado
+- mais estranho
+- mais rico
+- mais excelente
+- mais velho
+- mais jovem
+- mais misterioso
+- mais perplexo
+- mais ativo
+- mais absoluto
+- mais normal
+- mais adorável
+- mais lindo
+- mais aclamado
+- mais acrobático
+- mais adepto
+- mais admirável
+- mais admirado
+- mais adolescente
+- mais medroso
+- mais idoso
+- mais ambicioso
+- mais duro
+- mais ansioso
+- mais angélico
+- mais apreensivo
+- mais atento
+- mais envergonhado
+- mais surpreendente
+- mais horrível
+- mais desconcertante
+- pior
+- mais bonito
+- mais vorazes
+- mais infectado
+- mais amada
+- mais amargo
+- mais brando
+- mais sombrio
+- mais ousado
+- mais chato
+- mais forte
+- mais empolgado
+- mais calmo
+- mais calculado
+- mais cuidadoso
+- mais encantador
+- mais encantador
+- mais grosseiro
+- mais sem noção
+- mais competente
+- mais composto
+- mais resfriador
+- mais corruptor
+- mais esperto
+- mais criativo
+- mais assustador
+- mais criminoso
+- mais cultivado
+- mais perigoso
+- mais deslumbrante
+- mais escura
+- mais mortal
+- mais densa
+- mais devotado
+- mais maldito
+- mais distante
+- mais triste
+- mais sujo
+- mais tontas
+- mais pontuante
+- mais secador
+- mais ansioso
+- mais fácil
+- mais eufórico
+- mais envergonhado
+- mais excelente
+- mais animado
+- mais virgem
+- mais fabuloso
+- mais fiéis
+- mais falso
+- mais amador
+- mais familiar
+- mais enérgico
+- mais chamativo
+- mais focado
+- mais falante
+- mais fraterno
+- mais franco
+- mais maldade
+- mais compulsivo
+
+adjectiveValue:
+- melhor
+- pior
+
+assessment:
+- pobre
+- bom
+- mal
+- grande
+- medíocre
+- ordinário
+- horrível
+- impressionante
+- inacreditável
+- grande
+- pequeno
+
+determiner:
+- último
+- primeiro
+- segundo
+- terceiro
+- quarto
+- quinto
+- sexto
+- sétimo
+- oitavo
+- nono
+- décimo
+- décima primeira
+- décimo segundo
+- décimo terceiro
+
+ownership:
+- um mestre
+- um soldador
+- um criador
+- um usuário
+- um discípulo
+- um proprietário
+- um comerciante
+- um construtor
+- um senhor
+- um hospedeiro
+- um dirigente
+
+characterTrope:
+- um tsundere
+- um kuudere
+- um yandere
+- um tomboy
+- um heroine
+- um vilão
+
+group:
+- um yakuza
+- uma gangue
+- um conselho estudantil
+- um mercenário
+- uma cabala
+- um culto
+- uma sociedade secreta
+- uma guerrilha
+- um bandido
+- uma organização
+
+groupSize:
+- um enxame
+- um esquadrão
+- um grupo
+- uma legião
+- uma massa
+- um casal
+- um regimento
+- uma horda
+- um rebanho
+- uma tempestade
+- uma divisão
+
+color:
+- preto
+- branco
+- vermelho
+- verde
+- azul
+- amarelo
+- laranja
+- cinza
+- prata
+- ouro
+- ciano
+- rosa
+- bege
+- castanho
+
+bodypart:
+- um pentelho
+- um cabelo
+- uma mão
+- um braço
+- uma perna
+- um dedo
+- um pé
+- uma cabeça
+- um pescoço
+- uma volta
+- uma barriga
+- um dedo do pé
+- uma unha
+- um fundo
+- um olho
+- uma orelha
+- um nariz
+- um lábio
+- uma língua
+- uma palma
+- uma sobrancelha
+- um coração
+- um peito
+- um cérebro
+- uma costela
+- uma pele
+
+measures:
+- centímetros
+- graus
+- litros
+- ampère
+- quilogramas
+- hertz
+- quadros
+- newton
+- lux
+- lúmen
+- joule
+- farad
+- tesla
+- volt
+- watt
+
+element:
+- gelo
+- fogo
+- pedra
+- água
+- neve
+
+abstractConcept:
+- amor
+- amizade
+- vingança
+- ganância
+- pena
+- gula
+- ira
+- guerra
+- conflito
+- relacionamento
+- casamento
+- dever
+- lealdade
+- romance
+
+locations:
+- sala de aula
+- pedreira
+- escritório
+- chão
+- quarto
+- colégio
+- ensino fundamental
+- jardim da infância
+- construção
+- barraca
+- floresta
+- colina
+- salão de baile
+- casa de campo
+- loja
+- centro comercial
+- mercado de rua
+- mansão
+
+locationPlace:
+- uma cidade
+- uma vila
+- uma cidade
+- um mundo
+- um país
+- um distrito
+- uma casa
+- um quarto
+- uma escola
+- uma estrela
+- um planeta
+- um estado
+- uma prefeitura
+- uma província
+- uma dimensão
+- um território
+- um império
+- um reino
+- uma terra
+
+locationNature:
+- um oceano
+- uma floresta
+- uma montanha
+- um pântano
+- um deserto
+- um paraíso
+- um inferno
+
+occupationLocation:
+- uma escola
+- um trabalho
+- uma universidade
+
+place:
+- Tokyo
+- Osaka
+- Hiroshima
+- Kyoto
+- Kure
+- Akihabara
+- Shibuya
+- Akiba
+- Yokohama
+- Naogya
+- Kobe
+- Sapporo
+- Fukuoka
+- Nara
+- Sendai
+- Kitakyushu
+- Okayama
+- Hiroshima
+- Hamamatsu
+- Kanazawa
+- Nagasaki
+- Hakodate
+- Himeji
+- Shinjuku
+- Taitou
+- Meguro
+- Kita
+- Arakawa
+- Adachi
+- Ueno
+- Oumori
+- Haneda
+- Minato
+
+period:
+- Edo
+- Sengoku
+- Meiji
+- Taishou
+- Shouwa
+- Heisei
+
+era:
+- proibição
+- sengoku
+- bizantino
+- espanhol
+- mesoamericano
+- ming
+- dinossauros
+
+weather:
+- chuvoso
+- nebuloso
+- ensolarado
+- nevoeiro
+- nevado
+- quente
+
+timespan:
+- segundo
+- minuto
+- hora
+- dia
+- semana
+- mês
+- ano
+- década
+
+time:
+- passado
+- futuro
+- presente
+
+stateform:
+- reino
+- império
+- república
+- teocracia
+- republica mercante
+- chefe
+- tribo
+- ditadura
+
+catastrophe:
+- um terremoto
+- uma tempestade de raios
+- uma tempestade
+- um tsunami
+- uma revolta
+- uma rebelião
+- uma invasão
+- uma erupção
+- um vírus
+- uma guerra civil
+- um bombardeio
+- uma greve
+- uma explosão
+- um massacre
+- uma fome
+- um tornado
+- uma erupção
+- uma nevasca
+- um ciclone
+- uma estampa
+- um acidente
+- um terror
+- uma cometa
+- uma festa
+
+season:
+- verão
+- primavera
+- cair
+- inverno
+
+timeOfDay:
+- um alvorecer
+- um meio dia
+- um nascer do sol
+- um crepúsculo
+- um anoitecer
+- uma tardinha
+- uma tarde
+- uma noite
+
+# Isn't a problem keeping the original names?
+studio:
+- Studio Teen
+- Moonrise
+- NWT
+- Gaijin
+- Triggered
+- GOLDEN LINK.
+- Z+1 Pictures
+- Tokyo Animation
+- Leecher
+- Goda Boko
+- triomedea
+- CALMHOUSE
+- GoFeets
+- N.S.Staff
+- Studio 593
+- Internet Animation Movie
+- alientable
+- Pierro
+- Studio Joker
+- 16-bit
+- Shebek
+- Studio Gato de Chapéu
+- CALCIUM
+- Zombies Base
+- Light-gray Fox
+- Eve Production
+- sensation.
+- No G
+- Tunnel
+- Estúdio Cítrico
+- Studio 1/0.333s
+
+source:
+- Mangá
+- Light Novel
+
+director:
+- ''
+
+scriptWriter:
+- ''
+
+genres:
+- romance
+- drama
+- batalha
+- harém
+- horror
+- aventura
+- escola
+- guerra
+- isekai
+- cotidiano
+- esporte
+- gore
+- ação
+- sobrenatural
+- fantasia
+- comédia
+- yaoi
+- yuri
+- psicológico
+- histórico
+- mistério
+- crime
+- terror
+- música
+- artes marciais
+- ficção científica
+- espaço
+
+# The number is the random weight of the character appearing in the title
+specialCharacters:
+- ["!", 3]
+- ["*", 1]
+- [".", 1]
+- ["?", 1]
+- ["+", 1]
+- ["*", 1]
+- ["#", 1]
+
+# Those are Japanese, so for most languages those don't need to change
+suffixes:
+- san
+- kun
+- chan
+- sama
+- sensei
+
+preposition:
+- sob
+- sobre
+- dentro
+- ao lado de
+- perto de
+- dentro
+
+# Unless indefiniteArticle is called those keys below will have
+# the first word removed (usually an article) removed
+# If the language you're translating in don't use articles leave this
+# array empty. If your language have more complex rules try to
+# adapt in some way or open an issue.
+keysWithArticles:
+- catastrophe
+- locationNature
+- locationPlace
+- bodypart
+- groupSize
+- group
+- characterTrope
+- ownership
+- adjective
+- object
+- relation
+- race
+- occupation
+- genderName
+- occupationDeterminer
+- adjectiveSek
+- relation
+- relationSek
+- relationTert
+- objectSecond
+- objectRelation
+
+titleTemplates:
+- '{setting.place} {protagonist.firstName}'
+- '{protagonist.firstName}'
+- '{setting.place} {protagonist.occupation | capitalize}'
+- 'Crise do {setting.location | capitalize }'
+- 'O {protagonist.occupationDeterminer | capitalize} {protagonist.occupation | capitalize}'
+- '{protagonist.occupation | capitalize} em outro {setting.locationPlace | capitalize}'
+- 'Minha Academia {protagonist.occupation | capitalize}'
+- '{protagonist.firstName}, o {protagonist.adjective | capitalize} {protagonist.occupation | capitalize}'
+- '{protagonist.threat}'
+- '{protagonist.nickname}'
+- '{setting.location | capitalize} do {protagonist.threat | capitalize}'
+- '{protagonist.color | capitalize} {protagonist.occupation | capitalize}'
+- 'A lenda do {protagonist.adjective | capitalize} {protagonist.occupation | capitalize}'
+- 'O {protagonist.objectRelation | capitalize} do {protagonist.occupation | capitalize}'
+- '{protagonist.occupation | capitalize} {protagonist.genderName | capitalize}s'
+- '{setting.adjective | capitalize} {setting.location | capitalize}'
+- '{protagonist.firstName}-{suffixes}'
+- '{protagonist.occupation | capitalize}Beats'
+- '{meta.PresentParticiple | capitalize}'
+- '{protagonist.occupation | capitalize}'
+- '{protagonist.allies | capitalize} versus {protagonist.threat | capitalize}'
+- "Meu {secondaryCharacter.adjectiveSek | capitalize} {secondaryCharacter.relation | capitalize} não pode ser tão {secondaryCharacter.adjective | capitalize}"
+- 'Um Certo {protagonist.adjective | capitalize} {protagonist.occupation | capitalize}'
+- '{protagonist.firstName} {preposition} o {setting.location | capitalize}'
+- '{meta.adjective | capitalize} {protagonist.object | capitalize}'
+- '{protagonist.occupation | capitalize} x {protagonist.occupation | capitalize}'
+- '{protagonist.firstName} do {setting.timeOfDay | capitalize}'
+- '{setting.catastropheSpice | capitalize} {setting.catastrophe | capitalize}'
+- '{setting.catastropheSpice | capitalize}'
+- '{protagonist.firstName} o {protagonist.adjective | capitalize}'
+- '{setting.wildcardSubject | capitalize}'
+- '{protagonist.firstName} até {secondaryCharacter.firstName}'
+- '{protagonist.object | capitalize} {protagonist.genderName | capitalize}'
+- '{setting.wildcardSubject | capitalize} no {protagonist.object | capitalize}'
+- '{protagonist.object | capitalize} do {protagonist.occupation | capitalize}'
+- '{protagonist.threatRace | capitalize} e {setting.wildcardSubject | capitalize}'
+- 'O Ensaguentado {setting.wildcardSubject | capitalize} {protagonist.occupationPlural | capitalize}'
+- '{random | 1 | 100} {measures | capitalize} por {setting.timespan | capitalize}'
+- '{protagonist.occupation | capitalize} dos {protagonist.threatRace | capitalize}'
+- '{protagonist.color | capitalize} {setting.location | capitalize}'
+- 'O {setting.wildcardSubject | capitalize} de umas {protagonist.threatRace | capitalize} {setting.location | capitalize}'
+- '{setting.location | capitalize} de {protagonist.threat | capitalize}'
+- '{protagonist.firstName} de {protagonist.element | capitalize}'
+- '{meta.adjective | capitalize} {protagonist.allies | capitalize}'
+- 'Um Provável {protagonist.occupation | capitalize}'
+- 'O Olhar {protagonist.adjective | capitalize} de {protagonist.firstName}'
+- '{object | capitalize}/{object | capitalize} {object | capitalize}'
+- '{setting.location | capitalize} {setting.timespan | capitalize}s'
+- '{protagonist.race | capitalize} {protagonist.occupation | capitalize}'
+- '{protagonist.adjective | capitalize} {protagonist.occupation | capitalize}'
+- '{protagonist.firstName} Quer Ser {protagonist.verbPastParticiple | capitalize}'
+- 'Tudo o que você precisa é {protagonist.verbToInfinitive | capitalize}'
+- '{adjectiveComparative | capitalize} que {setting.wildcardSubject | capitalize}'
+
+subtitleTemplates:
+- '{setting.countryStateform | capitalize} de {protagonist.object | capitalize}'
+- '{protagonist.objectAdj | capitalize} {protagonist.object | capitalize}'
+- '{object | capitalize}'
+- '{protagonist.firstName} do {object | capitalize}'
+- '{protagonist.threatRace | capitalize} {protagonist.occupation | capitalize}'
+- 'a dança {object | capitalize} {setting.catastrophe}'
+- '{protagonist.verbPresentParticiple | capitalize} com {protagonist.firstName}'
+- '{protagonist.occupationPlural | capitalize} do {setting.timeOfDay | capitalize} {setting.location | capitalize}'
+- 'Segunda Temporada'
+
+genderData:
+  homem:
+    pronoun: ele
+    objectivePronoun: dele
+    personalPronoun: ele
+    youngGenderName: um garoto
+    adultGenderName: um homem
+    perfectTense: "ele é"
+  mulher:
+    pronoun: ela
+    objectivePronoun: dela
+    personalPronoun: ela
+    youngGenderName: uma garota
+    adultGenderName: uma mulher
+    perfectTense: ela é
+
+goalTemplates:
+- 'ser o melhor {protagonist.occupation}'
+- '{verbToInfinitive} {protagonist.objectivePronoun} perdida {relation}'
+
+sentenceFirst:
+  oneCharacter:
+  - '{protagonistName} é um {protagonist.occupation} de {protagonist.age} anos de idade'
+  - '{protagonistName} é um {protagonist.occupationDeterminer} {protagonist.occupation}'
+  - 'A história gira em torno de {protagonistName}, o último {protagonist.occupation}'
+  - '{protagonistName} vive em {setting.location} e é {protagonist.assessment} em {protagonist.verbPresentParticiple}'
+  - '{protagonistName} é {protagonist.objectRelation} do {protagonist.objectAdj} {protagonist.object}'
+  - '{protagonistName} quer {protagonist.goal} em {setting.place}'
+  - "{protagonistName} não é o seu típico {protagonist.occupation}"
+  - '{protagonistName} é um surpreentente {protagonist.adjective} {protagonist.genderName} livendo com um {protagonist.objectivePronoun} {secondaryCharacter.relation} em uma {setting.location}'
+  - '{protagonistName} herda um {protagonist.object | indefiniteArticle} de {protagonist.objectivePronoun} {secondaryCharacter.relation}'
+  - '{protagonistName}, {protagonist.occupation | indefiniteArticle}'
+  - 'Uma história comovente sobre {protagonist.occupation | indefiniteArticle}, que ganhou um {protagonist.object | indefiniteArticle} de {tertiaryCharacter.race | indefiniteArticle}'
+  - "{protagonistName} é {protagonist.characterTrope | indefiniteArticle} que não é {protagonist.assessment} em nada em particular"
+  - '{protagonistName} possui a habilidade {protagonist.ability}, mas ela não é forte suficiente para fazer nada importante'
+  - '{protagonistName} é um {protagonist.adjective | indefiniteArticle} de {protagonist.age} anos de idade {protagonist.genderName} que vive perto de {setting.locationNature} e assim {protagonist.pronoun} passa a maior parte do seu tempo {protagonist.verbPresentParticiple}'
+  - "A história do show gira em torno de {protagonistName}, que carregou todas as esperanças de {setting.country} nos ombros {protagonist.objectivePronoun} para ganhar no fim da competição Grand Prix {protagonist.occupation | capitalize}, mas sofreu uma derrota dolorosa"
+  - '{protagonistName} é {protagonist.adjective | indefiniteArticle} {protagonist.genderName} com {protagonist.adjective | indefiniteArticle} {protagonist.bodypart}'
+  - '{protagonistName} é {protagonist.occupation | indefiniteArticle} que foi roubado por {secondaryCharacter.adjective | indefiniteArticle} {secondaryCharacter.genderName}, mas a sorte {protagonist.objectivePronoun} parecia estar boa, já que outro {secondaryCharacter.adjective} {secondaryCharacter.genderName} aconlheu {protagonist.personalPronoun}'
+  - "{protagonistName} tem algumas razões para querer 'resetar' a imagem & vida {protagonist.objectivePronoun} em uma nova {protagonist.occupation}"
+  - "{protagonistName}, {protagonist.adjective | indefiniteArticle}, de {protagonist.age} anos de idade, {protagonist.occupation}, ainda não se deu bem com o {secondaryCharacter.relation} mais novo {protagonist.objectivePronoun}, {secondaryCharacter.firstName}, em {setting.timespan}s"
+
+  twoCharacters:
+  - 'Havendo perdido {protagonist.objectivePronoun} {tertiaryCharacter.relation}, {protagonist.occupation} {protagonistName} está fazendo o melhor {protagonist.objectivePronoun} para cuidar da jovem {secondaryCharacter.relation} {protagonist.objectivePronoun}  {secondaryCharacter.firstName} como apenas {protagonist.relationSek | indefiniteArticle}'
+  - 'Em {setting.timeOfDay | indefiniteArticle} iluminado por uma lua cheia escarlarte, um ordinário {protagonist.occupation} chamado {protagonistName} encontrou um auto-proclamado {secondaryCharacter.occupation} chamado {secondaryCharacter.firstName} em um festinal'
+
+  setting:
+  - 'Uma história ocorrida em {setting.place}'
+  - "'{title.primary}' ocorre em {setting.location}"
+  - 'Esse anime foca no clube de {protagonist.object | indefiniteArticle} em uma certa {setting.location}, e seus membros'
+  - 'O {setting.country} {setting.countryStateform} está em guerra com o vizinho {setting.countrySekStateform} de {setting.countrySek}'
+  - "A história 'classica {protagonist.group} {setting.genreMain}' acontece durante a era {setting.era | capitalize}"
+  - "A história de {setting.genreMain} acontece em {setting.place}, que foi assombrada por {protagonist.threatAdjective} '{protagonist.threatRace}' que estavam devorando {protagonist.alliesRace}"
+  - 'Em um dia de {setting.season}… um massivo {setting.catastrophe} atinge {setting.place}'
+
+sentenceMid:
+  oneCharacter:
+  - 'Então, um dia, {protagonist.genderPerfectTense} atacado por {protagonist.threatGroupSize | indefiniteArticle} de {protagonist.threat} e salvo por um misterioso {tertiaryCharacter.genderName}'
+  - '{protagonist.objectivePronoun | capitalize} {secondaryCharacter.relation}, {secondaryCharacter.firstName}, é também {protagonist.occupation | indefiniteArticle}'
+  - 'A diferença é que {protagonist.genderPerfectTense} {protagonist.race | indefiniteArticle}; mas não estava só'
+  - "Depois de um {setting.weather} {setting.timespan}, {protagonist.pronoun} não apareceu em {setting.occupationLocation}, havendo parar em um hospiral em um distante {setting.locationPlace}"
+  - '{protagonist.pronoun | capitalize} encontra {tertiaryCharacter.genderName | indefiniteArticle} chamado {tertiaryCharacter.firstName} que não gosta de interrupções no cotidiano {tertiaryCharacter.objectivePronoun}'
+  - 'A vida {protagonist.objectivePronoun | capitalize} muda depois que {protagonist.pronoun} encontrou {secondaryCharacter.firstName} {secondaryCharacter.lastName} de um instituto de pesquisas, que ofereceu para {protagonist.personalPronoun} uma droga que pode mudar a aparência {protagonist.objectivePronoun} para alguém de {random | 2 | 100} anos de idade e participar de um experimento por um ano'
+  - "{protagonist.firstName} acredita no folclore que dizia que 'muito tempoa trás cada humano podia ver o {protagonist.threatRace}' e sonha com o inesperado e antigo mistério sobre fazer {setting.locationPlace} um lugar onde pessoas e {protagonist.threatRace} podem viver juntos em paz"
+  - '{protagonist.genderPerfectTense | capitalize} bem ruim em {protagonist.verbToInfinitive}, mas a sorte trouxe a pequena família {protagonist.objectivePronoun} e um dos {secondaryCharacter.relation} {protagonist.objectivePronoun}, {secondaryCharacter.firstName}, juntos para aventuras em casa'
+  - 'Ninguém podia esperar que esse {protagonist.genderName} de {protagonist.age} anos de idade poderia um dia se tornar {protagonist.occupation | indefiniteArticle} chamado de {protagonist.relationSek} por outros'
+  - 'Mas isso não foi nada na vida {protagonist.objectivePronoun} comparado com o que {protagonist.firstName} estava se sentindo frustado…'
+  - 'Nos momentos de morte {protagonist.objectivePronoun}, {protagonist.firstName} foi transportado para {setting.locationPlace | indefiniteArticle} de mágica com outros {protagonist.occupationPlural} através da história'
+  - 'Através de estranhas circunstâncias {protagonist.pronoun} se encontra em {setting.locationPlace | indefiniteArticle} de jogos de vida ou morte comandados por {tertiaryCharacter.firstName} {tertiaryCharacter.lastName}'
+  - 'Atrás disso, {protagonist.pronoun} quer superar {secondaryCharacter.firstName}, que é respeitado por {protagonist.occupation | indefiniteArticle}'
+  - 'Só {protagonist.adjective | indefiniteArticle} {protagonist.occupation} pode ter o previlégio de se contactar com o espírito'
+
+  twoCharacters:
+  - 'Embora, através de circunstâncias misterioras, as garotas se encontraram sendo as sobreviventes finais em um ataque de {protagonist.threatRace | indefiniteArticle}, e continuaram a viver em {setting.occupationLocation}'
+  setting:
+  - 'Em {setting.country} {setting.countryStateform}, o {protagonist.adjective}, admirador de mulhares {protagonist.firstName} {protagonist.lastName} odeia {protagonist.abstractConcept}, mas devido a algumas circunstâncias, {protagonist.pronoun} relutante toma parte no maior teste de {protagonist.occupation}'
+  - '{random | 2 | 10000} anos depois, {protagonist.occupation | indefiniteArticle} chamado {protagonist.firstName} {protagonist.lastName} acidentalmente revela o {protagonist.threatRace} em um {setting.location} escondido sob o {setting.locationPlace} da família {protagonist.objectivePronoun}'
+  - '{protagonist.adjective | capitalize} aparência, {protagonist.adjective} inteligência, {protagonist.adjective} em artes e esportes... apenas {protagonist.adjective}'
+
+  structures:
+  - 'O futuro do mundo é posto em fisco por um exército de {protagonist.threatAdjective} {protagonist.threat} que são enviados do futuro para alterar o curso da história'
+  - '{protagonist.firstName} heda memórias e interesses de sua vida anterior e almeja ser um {protagonist.objectRelation} de um {protagonist.objectSecond | capitalize}{protagonist.object}, uma grande {protagonist.objectAdj} arma que realmente existe em {protagonist.objectivePronoun} {setting.locationPlace}'
+  - 'Atiçado por seus amigos, {protagonist.firstName} fica de joelhos e confessa seu amor para {secondaryCharacter.relation} {protagonist.objectivePronoun} chamado {secondaryCharacter.firstName}'
+  - 'A tendência de {protagonist.characterTrope} {setting.genre} começou um festival em {setting.locationPlace}'
+  - 'Aqueles que se arriscam em explorar as profundezas são conhecidos como {protagonist.threat}'
+  - 'O inesperado desastre que ficou conhecido como o {setting.wildcard | capitalize} {setting.catastropheSpice | capitalize} {setting.catastrophe | capitalize} matou {random | 2 | 10000} pessoas e deixou mais {random | 2 | 10000} feridas'
+  - 'Essa história segue {protagonist.occupation | indefiniteArticle} de {setting.locationPlace} que tinha um grande interesse em {protagonist.threatRace} e a interação {protagonist.objectivePronoun} com os vários {protagonist.threatRace} em {protagonist.objectivePronoun} {setting.occupationLocation}, cada um com seus problemas {meta.adjective}'
+  - "{protagonist.firstName} também constantemente fazia viagens a negócio da capital para os outros {setting.locationPlace} para checar a situação e os {occupationPlural} dali"
+  - 'Até o dia quando {tertiaryCharacter.occupation | indefiniteArticle} sabiam que pedidos de ajuda estariam para acabar com o poderio de {protagonist.threatGroup} no território de {protagonist.threatGroup}'
+  - "{protagonist.firstName} entra na elite das morais públicas de {setting.locationPlace} {setting.occupationLocation} e é convidado pelo fundador, {secondaryCharacter.firstName} {secondaryCharacter.lastName}, para participar da anti-{protagonist.occupation} como {protagonist.threatGroup}"
+  - "Então quem não mudaria o {setting.time} se dada a oportunidade"
+  - '{protagonist.firstName} resgate um {tertiaryCharacter.genderName} sem teto na rua em um dia de uns {protagonist.threatGroup}, e o {tertiaryCharacter.genderName} dá a {protagonist.firstName} um objeto que marca {protagonist.object | indefiniteArticle} no {protagonist.bodypart} {protagonist.objectivePronoun}'
+  - 'Embora, um dia, um grande {protagonist.threadRaceSingular} ataca {setting.country}'
+  - 'Um dia em um {setting.season}, o bonito mas esquisito {tertiaryCharacter.genderName} {tertiaryCharacter.firstName} {tertiaryCharacter.lastName}, da companhia de {protagonist.object}, resolve aparecer'
+  - '{protagonist.firstName} e {secondaryCharacter.firstName}, os heróis da história tem as chaves para abrir {protagonist.object | indefiniteArticle}'
+  - '{tertiaryCharacter.lastName}, que é um {protagonist.occupation} experiente pelo departamento de {protagonist.occupation}, procura um sucessor já que {tertiaryCharacter.pronoun} está prestes a se aposentar'
+  - '{protagonist.firstName} {protagonist.lastName} usa o poder {protagonist.objectivePronoun} sem os outros saberem, e vive uma vida bastante normal, uma vida escolar comum'
+  - '{protagonist.firstName} recusou, cortando o amado {protagonist.bodypart} dele {protagonist.objectivePronoun}, e fugiu para o vizinho {setting.countryStateform} de {setting.country}'
+  - 'Mas um novo conflito chegava inesperadamente'
+  - '{tertiaryCharacter.firstName}, um {protagonist.occupation}, um {protagonist.occupation} {setting.locationPlace} de uma dimensão alternativa, desafiou o rei de {protagonist.occupation} pelo trono e perdeu'
+  - '{secondaryCharacter.firstName} e {protagonist.firstName} estão constantemente sendo atacados e precisam aprender a viver suas vidas sem serem consumidos por {protagonist.abstractConcept}'
+
+sentenceLast:
+- 'Poderá {protagonistName} salvar {setting.locationPlace}?'
+- 'A aventura começa!'
+- 'Baseado no popular {meta.source}.'
+- 'Completamente em 3D.'
+- 'Baseado nos mitos de {setting.country}.'
+- 'Talvez... tenha ao menos um pouco de esperança para {protagonist.abstractConcept} em {protagonist.objectivePronoun} futuro.'

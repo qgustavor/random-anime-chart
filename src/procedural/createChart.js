@@ -4,7 +4,7 @@ import createSetting from './createSetting'
 import createMeta from './createMeta'
 import createTitle from './createTitle'
 
-export default function generateChart (random) {
+export default function generateChart (random, names) {
   const chart = {
     id: random.hash({length: 15})
   }
@@ -16,7 +16,8 @@ export default function generateChart (random) {
     setting: {},
     title: {},
     meta: {},
-    random
+    random,
+    names
   }
 
   createTrope(state, 'protagonist')

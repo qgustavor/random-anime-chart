@@ -2,17 +2,13 @@
   <div id="app">
     <header>
       <h1>Random Anime Chart</h1>
-      <router-link to="./" class="btn">Reroll</router-link>
+      <router-link to="random" class="btn">Reroll</router-link>
     </header>
-    
+
     <div class="floating-header-padding"></div>
 
     <router-view></router-view>
-    
-    <div v-if="$route.params.language" class="lang-alert">
-      For now just English is supported, the other languages were added just as placeholders.
-    </div>
-    
+
     <footer>
       <p>Based on <a href="http://animedreammachine.com/">animedreammachine.com</a> |
       Check the <a href="https://github.com/qgustavor/random-anime-chart">source code at GitHub</a></p>
@@ -65,16 +61,6 @@ header h1 {
 
 .floating-header-padding {
   padding-top: 60px;
-}
-
-.lang-alert {
-  background-color: white;
-  border: 2px dashed orange;
-  margin: 1em;
-  padding: 1em;
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .btn {

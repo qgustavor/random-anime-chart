@@ -8,7 +8,7 @@ const chance = new Chance()
 Vue.use(Router)
 
 function toRandomChart (to) {
-  return chance.word({syllables: 3})
+  return to.path.replace(/\w+$/, chance.word({syllables: 3}))
 }
 
 export default new Router({
@@ -20,9 +20,19 @@ export default new Router({
       redirect: toRandomChart
     },
     {
+      name: 'Random',
+      path: '/random',
+      redirect: toRandomChart
+    },
+    {
       name: 'Chart',
       path: '/:seed',
       component: MainView
+    },
+    {
+      name: 'TranslatedRandom',
+      path: '/:language/random/',
+      redirect: toRandomChart
     },
     {
       name: 'TranslatedChart',

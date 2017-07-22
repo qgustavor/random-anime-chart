@@ -1,18 +1,18 @@
-var { capitalize } = require('./helpers')
-var {genres, studio, source} = require('./names')
+const { capitalize } = require('./helpers')
 
 module.exports = function createMeta (state) {
-  var { random, setting, meta } = state
-  var genresCopy = genres.slice()
+  const { random, setting, meta, names } = state
+  const { genres, studio, source } = names
+  const genresCopy = genres.slice()
 
-  var genre = random.pickone(genresCopy)
+  let genre = random.pickone(genresCopy)
   setting.genre = genre
   meta.genre = capitalize(genre)
   setting.genreMain = genre
   genresCopy.splice(genresCopy.indexOf(genre), 1)
 
-  var genreCount = random.integer({min: 1, max: 5})
-  for (var y = 0; y < genreCount; y++) {
+  const genreCount = random.integer({min: 1, max: 5})
+  for (let y = 0; y < genreCount; y++) {
     genre = random.pickone(genresCopy)
     meta.genre += ', ' + capitalize(genre)
     genresCopy.splice(genresCopy.indexOf(genre), 1)

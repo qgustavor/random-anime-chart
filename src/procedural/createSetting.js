@@ -1,10 +1,9 @@
-/* global chance */
-var {locations, locationPlace, locationNature, occupationLocation,
-stateform, place, period, era, weather, time, timespan,
-catastrophe, timeOfDay, season} = require('./names')
+export default function createSetting (state) {
+  const { random, setting, names } = state
 
-module.exports = function createSetting (state) {
-  var { random, setting } = state
+  const {locations, locationPlace, locationNature, occupationLocation,
+  stateform, place, period, era, weather, time, timespan,
+  catastrophe, timeOfDay, season} = names
 
   setting.location = random.pickone(locations)
   setting.locationPlace = random.pickone(locationPlace)
@@ -25,7 +24,7 @@ module.exports = function createSetting (state) {
   setting.season = random.pickone(season)
 
   setting.wildcard = random.pickone([].concat(
-    chance.countries().map(function (e) {
+    random.countries().map(function (e) {
       return e.name
     }),
     locationPlace,
