@@ -26,13 +26,15 @@ Based on http://animedreammachine.com/ code.
     - [ ] Create interface translation files
     - [ ] Translate page to Portuguese
     - [ ] Write instructions to future collaborators
-- [ ] Improve design and generation
+- [ ] Improve design
+    - [ ] Replace Vue PWA icons with custom ones
+    - [ ] Show episode counts
+    - [ ] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
+- [ ] Improve generation
     - [ ] Avoid using functions with side effects
     - [ ] De-duplicate functions
-    - [ ] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
-    - [ ] Show episode counts
     - [ ] Add more studio names (seems the current list is from studios from the current season)
-    - [ ] Generate MyAnimeList scores based on genre and studio statistics
+    - [ ] Generate MyAnimeList scores based on genre statistics
 
 ## Build Setup
 
@@ -57,6 +59,9 @@ npm run e2e
 
 # run all tests
 npm test
+
+# publish to gh-pages
+npm run deploy
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
