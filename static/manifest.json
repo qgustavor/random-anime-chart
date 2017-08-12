@@ -1,6 +1,6 @@
 {
-  "name": "random-anime-chart",
-  "short_name": "random-anime-chart",
+  "name": "Random Anime Chart",
+  "short_name": "RAC",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#4DBA87"
