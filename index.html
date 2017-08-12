@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Random Anime Chart</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/icons/favicon-16x16.png">
-    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/icons/favicon-16x16.png">
+    <!--[if IE]><link rel="shortcut icon" href="static/img/icons/favicon.ico"><![endif]-->
     <!-- Add to home screen for Android and modern mobile browsers -->
-    <link rel="manifest" href="/static/manifest.json">
-    <meta name="theme-color" content="#4DBA87">
+    <link rel="manifest" href="static/manifest.json">
+    <meta name="theme-color" content="#FFFFFF">
 
     <!-- Add to home screen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Random Anime Chart">
-    <link rel="apple-touch-icon" href="/static/img/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" href="static/img/icons/apple-touch-icon.png">
     <!-- Add to home screen for Windows -->
-    <meta name="msapplication-TileImage" content="/static/img/icons/msapplication-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="static/img/icons/mstile-150x150.png">
+    <meta name="msapplication-TileColor" content="#FFC40D">
     <% for (var chunk of webpack.chunks) {
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
@@ -34,5 +34,6 @@
     <!-- Todo: only include in production -->
     <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/convnetjs/0.3.0/convnet-min.js"></script>
   </body>
 </html>

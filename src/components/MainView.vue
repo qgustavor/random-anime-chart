@@ -70,13 +70,12 @@ export default {
 
 <style scoped>
 .chart-area {
-  -js-display: flex;
 	display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 

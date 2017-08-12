@@ -4,35 +4,36 @@
 
 Based on http://animedreammachine.com/ code.
 
+This repository will be abandoned when the features below get implemented as the original website changed a lot so this repository is not needed anymore. Like, instead of using seeded randomization it allows saving images of the generated content; some bugs were fixed; images were implemented, and also I hate ads, at all, and that's why I use GitHub Pages, but the original author have to pay the domain and the server.
+
+*Icon credits:* [url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg][img]https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Anime_eye.svg/256px-Anime_eye.svg.png[/img][/url]
+[url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg]Anime eye[/url] [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], by User:Oni Lukos (Own work), from Wikimedia Commons
+
 ## Roadmap
 
 - [x] Organize code in modules
 - [x] Use seeded randomization so people can share their generated charts
-- [x] Replace jQuery with [Vue PWA](https://github.com/vuejs-templates/pwa):
+- [x] Replace jQuery with [Vue PWA](https://github.com/vuejs-templates/pwa):  
     jQuery was only being used for the ready event, everything else used just plain DOM manipulation and HTML
     modification via concatenation and innerHTML. Because of that I think Vue was the best choice as it's
     template based system would be more intuitive than using React, more organized than using plain DOM and
     more future friendly than using jQuery.
-- [ ] Improve CSS
+- [x] Improve CSS
     - [x] Make page work in small screens
     - [x] Center elements
     - [x] Move that big button to the left to save space
     - [x] Added a material-like style on cards (which were originally boxes)
     - [x] Replaced Open Sans font (which I think many computers don't have) with Medium font-stack
-    - [ ] There is still room for improvements...
 - [ ] Localize website
     - [x] Make language select interface
     - [ ] Move generation text data to separate files
     - [ ] Create interface translation files
-    - [ ] Translate page to Portuguese
+    - [ ] Translate page to Portuguese (because I want to)
     - [ ] Write instructions to future collaborators
-- [ ] Improve design and generation
-    - [ ] Avoid using functions with side effects
-    - [ ] De-duplicate functions
-    - [ ] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
+- [ ] Improve design
+    - [ ] Replace Vue PWA icons with custom ones
     - [ ] Show episode counts
-    - [ ] Add more studio names (seems the current list is from studios from the current season)
-    - [ ] Generate MyAnimeList scores based on genre and studio statistics
+    - [ ] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
 
 ## Build Setup
 
@@ -57,6 +58,9 @@ npm run e2e
 
 # run all tests
 npm test
+
+# publish to gh-pages
+npm run deploy
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
