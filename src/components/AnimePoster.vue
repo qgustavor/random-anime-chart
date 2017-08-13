@@ -64,7 +64,11 @@ const generateTitle = (ctx, random, data) => {
   if (doRotation) ctx.restore()
 }
 
-function sharpen (ctx, w, h, mix, a) { // why standard?!
+function sharpen (ctx, w, h, mix, a) {
+  // note: for some weird reason declaring "a" in the let below makes ESLint
+  // throw a no-unused-vars error, in the other hand not declaring it makes
+  // it throw a no-undef error, so to fix this weird bug this variable got
+  // declared in the function arguments
   let x, sx, sy, r, g, b, dstOff, srcOff, wt, cx, cy, scy, scx
   let weights = [0, -1, 0, -1, 5, -1, 0, -1, 0]
   let katet = Math.round(Math.sqrt(weights.length))
@@ -113,6 +117,7 @@ function sharpen (ctx, w, h, mix, a) { // why standard?!
 }
 
 let scheduledPosters = []
+let currentKey
 
 export default {
   name: 'AnimePoster',
@@ -121,6 +126,13 @@ export default {
     this.generatePosterSchedule()
   },
   watch: {
+    '$route' (to, from) {
+      const scheduleKey = to.params.seed + '_' + to.params.language
+      if (scheduleKey !== currentKey) {
+        currentKey = scheduleKey
+        scheduledPosters = []
+      }
+    },
     data () {
       this.generatePosterSchedule()
     }

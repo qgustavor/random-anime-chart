@@ -1,29 +1,76 @@
 <template>
-  <div id="app">
+  <div id="app" v-if="lang">
     <header>
-      <h1>Random Anime Chart</h1>
-      <router-link to="random" class="btn">Reroll</router-link>
+      <h1>{{ lang.interface.name }}</h1>
+      <router-link to="random" class="btn">{{ lang.interface.reroll }}</router-link>
     </header>
 
     <div class="floating-header-padding" />
 
-    <router-view></router-view>
+    <router-view :lang="lang"></router-view>
 
     <footer>
-      <p>Based on <a href="http://animedreammachine.com/">animedreammachine.com</a> |
-      Check the <a href="https://github.com/qgustavor/random-anime-chart">source code at GitHub</a></p>
+      <p><span v-for="part in lang.interface.footerParts">
+        <a v-if="part.url" :href="part.url">{{ part.text }}</a>
+        <span v-else>{{ part }}</span>
+      </span></p>
       <p class="lang-select">
-        <router-link :to="'/'    + $route.params.seed">English</router-link>
-        <router-link :to="'/pt/' + $route.params.seed">Português</router-link>
-        <router-link :to="'/de/' + $route.params.seed">Deutsch</router-link>
+        <router-link v-for="(lang, code) in languageNames" :key="code"
+          :to="'/' + (code === 'en' ? '' : code + '/') + $route.params.seed">
+          {{ lang }}
+        </router-link>
       </p>
     </footer>
   </div>
 </template>
 
 <script>
+import { getLanguageData } from './lang/language-handler'
+import languageNames from 'json-loader!yaml-loader!./lang/language-names.yaml'
+
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      lang: null,
+      languageNames
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      if (to.params.language !== from.params.language) {
+        this.getLanguageData()
+      }
+    }
+  },
+  mounted () {
+    this.getLanguageData()
+  },
+  methods: {
+    getLanguageData () {
+      const language = this.$route.params.language || 'en'
+
+      getLanguageData(language)
+      .then(lang => {
+        fixTag(lang.interface, 'footer')
+        this.lang = lang
+      }, () => {
+        this.$router.replace('/' + this.$route.params.seed)
+      })
+    }
+  }
+}
+
+function fixTag (obj, tagName) {
+  const original = obj[tagName]
+  const tokens = original.match(/\{[^}]+\}/g)
+  const result = original.split(/\{[^}]+\}/g)
+  tokens.forEach((token, index) => {
+    const tokenName = token.replace(/^\{\s*|\s*\}$/g, '')
+    const tagValues = obj[tokenName]
+    result.splice(index * 2 + 1, 0, tagValues)
+  })
+  obj[tagName + 'Parts'] = result
 }
 </script>
 

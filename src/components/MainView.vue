@@ -1,18 +1,7 @@
 <template>
   <div class="chart-area">
-    <div v-if="missingLanguage" class="lang-alert">
-      This language isn't supported yet.
-    </div>
-
-    <AnimeChart v-for="chart in charts" :data="chart" key="chart.id"></AnimeChart>
-
-    <div v-if="!missingLanguage && !charts.length" class="loading-msg">
-      Carregando...
-    </div>
-
-    <div v-if="missingLanguage && charts.length" class="lang-alert">
-      This language isn't supported yet.
-    </div>
+    <div v-if="!charts.length" class="loading-msg">{{ lang.interface.loading }}</div>
+    <AnimeChart v-for="chart in charts" :data="chart" key="chart.id" :lang="lang"></AnimeChart>
   </div>
 </template>
 
@@ -20,19 +9,18 @@
 import AnimeChart from './AnimeChart'
 import Chance from 'chance'
 import createChart from '../procedural/createChart'
-import { getLanguageData } from '../procedural/language-handler'
 
 const CHART_COUNT = 12
 
 export default {
-  name: 'app',
+  name: 'main-view',
+  props: ['lang'],
   components: {
     AnimeChart
   },
   data () {
     return {
-      charts: [],
-      missingLanguage: false
+      charts: []
     }
   },
   watch: {
@@ -46,23 +34,15 @@ export default {
   methods: {
     generateCharts () {
       const chance = new Chance(this.$route.params.seed)
-      const language = this.$route.params.language || 'en'
       const newCharts = []
-
       this.charts = []
-      this.missingLanguage = false
 
-      getLanguageData(language).catch(() => {
-        this.missingLanguage = true
-        return getLanguageData('en')
-      }).then(languageData => {
-        for (let i = 0; i < CHART_COUNT; i++) {
-          const chart = createChart(chance, languageData)
-          newCharts.push(chart)
-        }
+      for (let i = 0; i < CHART_COUNT; i++) {
+        const chart = createChart(chance, this.lang)
+        newCharts.push(chart)
+      }
 
-        this.charts = newCharts
-      })
+      this.charts = newCharts
     }
   }
 }

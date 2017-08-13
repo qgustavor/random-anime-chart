@@ -1,4 +1,19 @@
 ---
+interface:
+  name: Lista de Animes Aleatórios
+  # The "\u00A0" is a non-breaking space, so those words don't get separated in two lines
+  reroll: "Nova\u00A0lista"
+  footer: Baseado em { originalWebsiteAnchor } | veja o { sourceCodeAnchor }
+  originalWebsiteAnchor:
+    text: animedreammachine.com
+    url: http://animedreammachine.com
+  sourceCodeAnchor:
+    text: código fonte no GitHub
+    url: https://github.com/qgustavor/random-anime-chart/
+  episode: episódio
+  episodes: episódios
+  loading: Carregando...
+
 gender:
 - homem
 - mulher

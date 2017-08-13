@@ -1,4 +1,18 @@
 ---
+interface:
+  name: Random Anime Chart
+  reroll: Reroll
+  footer: Based on { originalWebsiteAnchor } | check the { sourceCodeAnchor }
+  originalWebsiteAnchor:
+    text: animedreammachine.com
+    url: http://animedreammachine.com
+  sourceCodeAnchor:
+    text: source code at GitHub
+    url: https://github.com/qgustavor/random-anime-chart/
+  episode: episode
+  episodes: episodes
+  loading: Loading...
+
 gender:
 - male
 - female

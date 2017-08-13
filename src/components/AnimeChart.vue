@@ -6,7 +6,7 @@
     <div class="scroll-area">
       <h2>{{ data.title }}</h2>
       <div class="meta">
-        {{ data.episodes }} {{ data.episodes === 1 ? 'episode' : 'episodes'}}<br>
+        {{ data.episodes }} {{ data.episodes === 1 ? lang.interface.episode : lang.interface.episodes}}<br>
         ★ {{ data.score.toFixed(2) }}
       </div>
       <div class="studio">{{ data.studio }}</div>
@@ -21,7 +21,7 @@ import AnimePoster from './AnimePoster'
 
 export default {
   name: 'AnimeChart',
-  props: ['data'],
+  props: ['data', 'lang'],
   components: {
     AnimePoster
   }
