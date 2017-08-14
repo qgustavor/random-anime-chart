@@ -4,7 +4,7 @@
 
 Based on http://animedreammachine.com/ code.
 
-This repository will be abandoned when the features below get implemented as the original website changed a lot so this repository is not needed anymore. Like, instead of using seeded randomization it allows saving images of the generated content; some bugs were fixed; images were implemented, and also I hate ads, at all, and that's why I use GitHub Pages, but the original author have to pay the domain and the server.
+This repository was abandoned when the features below got implemented as the original website changed a lot so this repository is not needed anymore. Like, instead of using seeded randomization it allows saving images of the generated content; some bugs were fixed; images were implemented, and also I hate ads, at all, and that's why I use GitHub Pages, but the original author have to pay the domain and the server.
 
 *Icon credits:* [url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg][img]https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Anime_eye.svg/256px-Anime_eye.svg.png[/img][/url]
 [url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg]Anime eye[/url] [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], by User:Oni Lukos (Own work), from Wikimedia Commons
@@ -24,16 +24,15 @@ This repository will be abandoned when the features below get implemented as the
     - [x] Move that big button to the left to save space
     - [x] Added a material-like style on cards (which were originally boxes)
     - [x] Replaced Open Sans font (which I think many computers don't have) with Medium font-stack
-- [ ] Localize website
+- [x] Localize website
     - [x] Make language select interface
-    - [ ] Move generation text data to separate files
-    - [ ] Create interface translation files
-    - [ ] Translate page to Portuguese (because I want to)
-    - [ ] Write instructions to future collaborators
-- [ ] Improve design
-    - [ ] Replace Vue PWA icons with custom ones
-    - [ ] Show episode counts
-    - [ ] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
+    - [x] Move generation text data to separate files
+    - [x] Create interface translation files
+    - [x] Translate page to Portuguese
+- [x] Improve design
+    - [x] Replace Vue PWA icons with custom ones
+    - [x] Show episode counts
+    - [x] Generate posters ([inspiration](https://u.biyori.moe/dNapdag4.jpg))
 
 ## Build Setup
 
