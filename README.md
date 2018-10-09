@@ -6,8 +6,7 @@ Based on http://animedreammachine.com/ code.
 
 This repository was abandoned when the features below got implemented as the original website changed a lot so this repository is not needed anymore. Like, instead of using seeded randomization it allows saving images of the generated content; some bugs were fixed; images were implemented, and also I hate ads, at all, and that's why I use GitHub Pages, but the original author have to pay the domain and the server.
 
-*Icon credits:* [url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg][img]https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Anime_eye.svg/256px-Anime_eye.svg.png[/img][/url]
-[url=https://commons.wikimedia.org/wiki/File%3AAnime_eye.svg]Anime eye[/url] [CC BY-SA 2.5 (http://creativecommons.org/licenses/by-sa/2.5)], by User:Oni Lukos (Own work), from Wikimedia Commons
+*Icon credits:* By User:Oni Lukos (Own work) [CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons
 
 ## Roadmap
 
